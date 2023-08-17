@@ -1,7 +1,6 @@
 import bpy
 op = bpy.context.active_operator
 
-op.filepath = 'C:\\Users\\Pontus\\OneDrive - Arkrot Venture AB\\Modelling\\Interiors\\Brf Stratos\\Exports\\E-1104 v9.glb'
 op.convert_lighting_mode = 'SPEC'
 op.gltf_export_id = ''
 op.export_format = 'GLB'
